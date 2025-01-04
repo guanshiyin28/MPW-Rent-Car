@@ -84,7 +84,7 @@ require("function.php");
     				<div class="row no-gutters">
 	  					<div class="col-md-4 d-flex align-items-center">
 	  						<form action="#" class="request-form ftco-animate bg-primary">
-		          		<h2>Lakukan perjalanan Anda</h2>
+		          		<h2>Lakukan perjalanan Menyenangkan Anda</h2>
 			    				<div class="form-group">
 			    					<label for="" class="label">Lokasi Penjemputan</label>
 			    					<input type="text" class="form-control" placeholder="City, Airport, Station, etc">
