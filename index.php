@@ -262,8 +262,8 @@ require("function.php");
 			<div class="container">
 				<div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-          	<span class="subheading">Services</span>
-            <h2 class="mb-3">Our Latest Services</h2>
+          	<span class="subheading">Layanan</span>
+            <h2 class="mb-3">Layanan Terbaru Kami</h2>
           </div>
         </div>
 				<div class="row">
