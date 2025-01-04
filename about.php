@@ -100,7 +100,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">Our Customer</span>
+            <span class="subheading">Pelanggan Kami</span>
             <h2 class="mb-3">TESTIMONI</h2>
           </div>
         </div>
