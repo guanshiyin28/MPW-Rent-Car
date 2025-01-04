@@ -30,20 +30,20 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">Car<span>Book</span></a>
+	      <a class="navbar-brand" href="index.php">MPW<span>RENT</span></a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.php" class="nav-link">Home</a></li>
-	          <li class="nav-item"><a href="about.php" class="nav-link">About</a></li>
-	          <li class="nav-item"><a href="services.php" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="index.php" class="nav-link">Beranda</a></li>
+	          <li class="nav-item"><a href="about.php" class="nav-link">Tentang</a></li>
+	          <li class="nav-item"><a href="services.php" class="nav-link">Layanan</a></li>
 	          <li class="nav-item"><a href="pricing.php" class="nav-link">Pricing</a></li>
-	          <li class="nav-item active"><a href="car.php" class="nav-link">Cars</a></li>
+	          <li class="nav-item active"><a href="car.php" class="nav-link">Mobil</a></li>
 	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.php" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="contact.php" class="nav-link">Kontak</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -56,7 +56,7 @@
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-5">
           	<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Home <i class="ion-ios-arrow-forward"></i></a></span> <span>Car details <i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-3 bread">Car Details</h1>
+            <h1 class="mb-3 bread">Detail Mobil</h1>
           </div>
         </div>
       </div>
@@ -68,10 +68,10 @@
       	<div class="row justify-content-center">
       		<div class="col-md-12">
       			<div class="car-details">
-      				<div class="img rounded" style="background-image: url(images/bg_1.jpg);"></div>
+      				<div class="img rounded" style="background-image: url(images/Rush.jpg);"></div>
       				<div class="text text-center">
-      					<span class="subheading">Cheverolet</span>
-      					<h2>Mercedes Grand Sedan</h2>
+      					<span class="subheading">Toyota</span>
+      					<h2>Rush</h2>
       				</div>
       			</div>
       		</div>
@@ -84,7 +84,7 @@
 	              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-dashboard"></span></div>
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
-		                	Mileage
+		                	Jarak tempuh
 		                	<span>40,000</span>
 		                </h3>
 	                </div>
@@ -114,8 +114,8 @@
 	              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-car-seat"></span></div>
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
-		                	Seats
-		                	<span>5 Adults</span>
+		                	Kursi
+		                	<span>5 Orang dewasa</span>
 		                </h3>
 	                </div>
                 </div>
@@ -129,8 +129,8 @@
 	              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-backpack"></span></div>
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
-		                	Luggage
-		                	<span>4 Bags</span>
+		                	Bagasi
+		                	<span>4 Tas</span>
 		                </h3>
 	                </div>
                 </div>
@@ -144,7 +144,7 @@
 	              	<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-diesel"></span></div>
 	              	<div class="text">
 		                <h3 class="heading mb-0 pl-3">
-		                	Fuel
+		                	Bahan Bakar
 		                	<span>Petrol</span>
 		                </h3>
 	                </div>
@@ -160,13 +160,13 @@
 							  <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
 
 							    <li class="nav-item">
-							      <a class="nav-link active" id="pills-description-tab" data-toggle="pill" href="#pills-description" role="tab" aria-controls="pills-description" aria-expanded="true">Features</a>
+							      <a class="nav-link active" id="pills-description-tab" data-toggle="pill" href="#pills-description" role="tab" aria-controls="pills-description" aria-expanded="true">Fitur</a>
 							    </li>
 							    <li class="nav-item">
-							      <a class="nav-link" id="pills-manufacturer-tab" data-toggle="pill" href="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">Description</a>
+							      <a class="nav-link" id="pills-manufacturer-tab" data-toggle="pill" href="#pills-manufacturer" role="tab" aria-controls="pills-manufacturer" aria-expanded="true">Deskripsi</a>
 							    </li>
 							    <li class="nav-item">
-							      <a class="nav-link" id="pills-review-tab" data-toggle="pill" href="#pills-review" role="tab" aria-controls="pills-review" aria-expanded="true">Review</a>
+							      <a class="nav-link" id="pills-review-tab" data-toggle="pill" href="#pills-review" role="tab" aria-controls="pills-review" aria-expanded="true">Ulasan</a>
 							    </li>
 							  </ul>
 							</div>
@@ -176,18 +176,18 @@
 						    	<div class="row">
 						    		<div class="col-md-4">
 						    			<ul class="features">
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Airconditions</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Child Seat</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Kondisi udara</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Kursi Anak</li>
 						    				<li class="check"><span class="ion-ios-checkmark"></span>GPS</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Luggage</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Music</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Bagasi</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Musik</li>
 						    			</ul>
 						    		</div>
 						    		<div class="col-md-4">
 						    			<ul class="features">
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Seat Belt</li>
-						    				<li class="remove"><span class="ion-ios-close"></span>Sleeping Bed</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Water</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Sabuk pengaman</li>
+						    				<li class="remove"><span class="ion-ios-close"></span>Tempat Tidur</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Air</li>
 						    				<li class="check"><span class="ion-ios-checkmark"></span>Bluetooth</li>
 						    				<li class="remove"><span class="ion-ios-close"></span>Onboard computer</li>
 						    			</ul>
@@ -195,24 +195,25 @@
 						    		<div class="col-md-4">
 						    			<ul class="features">
 						    				<li class="check"><span class="ion-ios-checkmark"></span>Audio input</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Long Term Trips</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Perjalanan Jangka Panjang</li>
 						    				<li class="check"><span class="ion-ios-checkmark"></span>Car Kit</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Remote central locking</li>
-						    				<li class="check"><span class="ion-ios-checkmark"></span>Climate control</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Penguncian sentral jarak jauh</li>
+						    				<li class="check"><span class="ion-ios-checkmark"></span>Kontrol iklim</li>
 						    			</ul>
 						    		</div>
 						    	</div>
 						    </div>
 
 						    <div class="tab-pane fade" id="pills-manufacturer" role="tabpanel" aria-labelledby="pills-manufacturer-tab">
-						      <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-									<p>When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then she continued her way.</p>
+						      <p> Toyota Avanza, dikenal sebagai "mobil sejuta umat", adalah pilihan ideal untuk perjalanan keluarga atau bisnis. Dengan kapasitas hingga 7 penumpang, ruang kabin luas, dan fitur kenyamanan modern seperti AC double blower, mobil ini menawarkan perjalanan yang nyaman dan menyenangkan. Ditenagai oleh mesin yang irit bahan bakar serta pilihan transmisi Manual/Matic, Avanza siap menemani aktivitas Anda di dalam maupun luar kota.
+								Cocok untuk segala kebutuhan, mulai dari perjalanan wisata, acara keluarga, hingga perjalanan dinas.</p>
+									<p>Sewa sekarang dan nikmati kenyamanan Toyota Avanza! 🚗✨</p>
 						    </div>
 
 						    <div class="tab-pane fade" id="pills-review" role="tabpanel" aria-labelledby="pills-review-tab">
 						      <div class="row">
 							   		<div class="col-md-7">
-							   			<h3 class="head">23 Reviews</h3>
+							   			<h3 class="head">23 Ulasan</h3>
 							   			<div class="review d-flex">
 									   		<div class="user-img" style="background-image: url(images/person_1.jpg)"></div>
 									   		<div class="desc">
@@ -237,7 +238,7 @@
 									   		<div class="user-img" style="background-image: url(images/person_2.jpg)"></div>
 									   		<div class="desc">
 									   			<h4>
-									   				<span class="text-left">Jacob Webb</span>
+									   				<span class="text-left">Alik Zainul</span>
 									   				<span class="text-right">14 March 2018</span>
 									   			</h4>
 									   			<p class="star">
@@ -276,7 +277,7 @@
 							   		</div>
 							   		<div class="col-md-5">
 							   			<div class="rating-wrap">
-								   			<h3 class="head">Give a Review</h3>
+								   			<h3 class="head">Penilaian Mobil</h3>
 								   			<div class="wrap">
 									   			<p class="star">
 									   				<span>
@@ -287,7 +288,7 @@
 									   					<i class="ion-ios-star"></i>
 									   					(98%)
 								   					</span>
-								   					<span>20 Reviews</span>
+								   					<span>20 Ulasan</span>
 									   			</p>
 									   			<p class="star">
 									   				<span>
@@ -298,7 +299,7 @@
 									   					<i class="ion-ios-star"></i>
 									   					(85%)
 								   					</span>
-								   					<span>10 Reviews</span>
+								   					<span>10 Ulasan</span>
 									   			</p>
 									   			<p class="star">
 									   				<span>
@@ -309,7 +310,7 @@
 									   					<i class="ion-ios-star"></i>
 									   					(70%)
 								   					</span>
-								   					<span>5 Reviews</span>
+								   					<span>5 Ulasan</span>
 									   			</p>
 									   			<p class="star">
 									   				<span>
@@ -320,7 +321,7 @@
 									   					<i class="ion-ios-star"></i>
 									   					(10%)
 								   					</span>
-								   					<span>0 Reviews</span>
+								   					<span>0 Ulasan</span>
 									   			</p>
 									   			<p class="star">
 									   				<span>
@@ -331,7 +332,7 @@
 									   					<i class="ion-ios-star"></i>
 									   					(0%)
 								   					</span>
-								   					<span>0 Reviews</span>
+								   					<span>0 Ulasan</span>
 									   			</p>
 									   		</div>
 								   		</div>
@@ -349,50 +350,50 @@
     	<div class="container">
     		<div class="row justify-content-center">
           <div class="col-md-12 heading-section text-center ftco-animate mb-5">
-          	<span class="subheading">Choose Car</span>
-            <h2 class="mb-2">Related Cars</h2>
+          	<span class="subheading">Pilih Mobil</span>
+            <h2 class="mb-2">Mobil Terkait</h2>
           </div>
         </div>
         <div class="row">
         	<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/Avanza.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Mercedes Grand Sedan</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Toyota Avanza Veloz</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Cheverolet</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Toyota</span>
+	    						<p class="price ml-auto">IDR.400 <span>/Har</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="PesanSekarang.php" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a><a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/Civic.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Range Rover</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Honda Civic</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Subaru</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Honda</span>
+	    						<p class="price ml-auto">IDR.1500.000 <span>/Hari</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
     			<div class="col-md-4">
     				<div class="car-wrap rounded ftco-animate">
-    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.jpg);">
+    					<div class="img rounded d-flex align-items-end" style="background-image: url(images/Fortuner.jpg);">
     					</div>
     					<div class="text">
-    						<h2 class="mb-0"><a href="car-single.php">Mercedes Grand Sedan</a></h2>
+    						<h2 class="mb-0"><a href="car-single.php">Toyota Fortuner</a></h2>
     						<div class="d-flex mb-3">
-	    						<span class="cat">Cheverolet</span>
-	    						<p class="price ml-auto">$500 <span>/day</span></p>
+	    						<span class="cat">Toyota</span>
+	    						<p class="price ml-auto">IDR.500.000 <span>/Hari</span></p>
     						</div>
-    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Book now</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+    						<p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
     					</div>
     				</div>
     			</div>
