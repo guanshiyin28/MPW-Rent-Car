@@ -72,7 +72,7 @@ if ($conn->connect_error) {
               ></span>
               <span>Mobil <i class="ion-ios-arrow-forward"></i></span>
             </p>
-            <h1 class="mb-3 bread">Pilih Mobil</h1>
+            <h1 class="mb-3 bread">Pilih Mobil Anda</h1>
           </div>
         </div>
       </div>
