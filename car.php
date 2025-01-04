@@ -1,3 +1,18 @@
+<?php
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "webrentalmobil";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -32,16 +47,16 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation"><span class="oi oi-menu"></span> Menu</button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
-	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.php" class="nav-link">Beranda</a></li>
-	          <li class="nav-item"><a href="about.php" class="nav-link">Tentang</a></li>
-	          <li class="nav-item"><a href="services.php" class="nav-link">Layanan</a></li>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item"><a href="index.php" class="nav-link">Beranda</a></li>
+              <li class="nav-item"><a href="about.php" class="nav-link">Tentang</a></li>
+              <li class="nav-item"><a href="services.php" class="nav-link">Layanan</a></li>
             <li class="nav-item"><a href="pricing.php" class="nav-link">Penepatan</a></li>
-	          <li class="nav-item"><a href="car.php" class="nav-link">Mobil</a></li>
-	          <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.php" class="nav-link">Kontak</a></li>
-	        </ul>
-	      </div>
+              <li class="nav-item"><a href="car.php" class="nav-link">Mobil</a></li>
+              <li class="nav-item"><a href="blog.php" class="nav-link">Blog</a></li>
+              <li class="nav-item"><a href="contact.php" class="nav-link">Kontak</a></li>
+            </ul>
+          </div>
       </div>
     </nav>
     <!-- END nav -->
@@ -66,165 +81,33 @@
     <section class="ftco-section bg-light">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-1.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Mercedes Benz</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">SLK250 AMG 2012</span>
-                  <p class="price ml-auto">IDR. 1.400.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-2.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Range Rover Land</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Dinamic Luxury</span>
-                  <p class="price ml-auto">IDR. 2.000.000<span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-3.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Mclaren Automotive</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Mclaren 720s</span>
-                  <p class="price ml-auto">IDR. 10.000.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
 
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-4.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Ford Mustang</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Shelby GT500</span>
-                  <p class="price ml-auto">IDR. 5.500.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-5.jpeg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Daihatsu</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Sigra X 1.2 A/T</span>
-                  <p class="price ml-auto">IDR. 700.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-6.jpeg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Toyota</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Fortuner Faclift</span>
-                  <p class="price ml-auto">IDR. 1.800.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
+        <?php
+        $sql = "SELECT nama_mobil, harga_mobil, gambar_mobil FROM unit";
+        $result = $conn->query($sql);
 
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-7.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Mercedes Benz</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">AMG C63 S</span>
-                  <p class="price ml-auto">IDR. 1.100.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-8.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Rubicon</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Jeep Wrangler</span>
-                  <p class="price ml-auto">IDR. 2.500.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-9.jpg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Mercedes Benz</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">AMG GT R 2024</span>
-                  <p class="price ml-auto">IDR. 2.100.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-10.jpeg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Daihatsu</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Xenia 1.3R CVT</span>
-                  <p class="price ml-auto">IDR. 600.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-11.jpeg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Toyota</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">Avanza 1.5G CVT</span>
-                  <p class="price ml-auto">IDR. 600.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="car-wrap rounded ftco-animate">
-              <div class="img rounded d-flex align-items-end" style="background-image: url(images/car-12.jpeg)"></div>
-              <div class="text">
-                <h2 class="mb-0"><a href="car-single.php">Honda</a></h2>
-                <div class="d-flex mb-3">
-                  <span class="cat">CR-V Sport</span>
-                  <p class="price ml-auto">IDR. 1.500.000 <span>/day</span></p>
-                </div>
-                <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
-              </div>
-            </div>
-          </div>
+        if ($result->num_rows > 0) {
+            while($row = $result->fetch_assoc()) {
+                echo '<div class="col-md-4">
+                        <div class="car-wrap rounded ftco-animate">
+                          <div class="img rounded d-flex align-items-end" style="background-image: url(' . $row["gambar_mobil"] . ')"></div>
+                          <div class="text">
+                            <h2 class="mb-0"><a href="car-single.php">' . $row["nama_mobil"] . '</a></h2>
+                            <div class="d-flex mb-3">
+                              <span class="cat">Car Model</span>
+                              <p class="price ml-auto">IDR. ' . number_format($row["harga_mobil"]) . ' <span>/day</span></p>
+                            </div>
+                            <p class="d-flex mb-0 d-block"><a href="#" class="btn btn-primary py-2 mr-1">Pesan Sekarang</a> <a href="car-single.php" class="btn btn-secondary py-2 ml-1">Details</a></p>
+                          </div>
+                        </div>
+                      </div>';
+            }
+        } else {
+            echo "0 results";
+        }
+        $conn->close();
+        ?>
+        
         </div>
         <div class="row mt-5">
           <div class="col text-center">
@@ -232,7 +115,7 @@
               <ul>
                 <li><a href="#">&lt;</a></li>
                 <li class="active"><span>1</span></li>
-                <li><a href="#">2</span></li>
+                <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li><a href="#">5</a></li>
