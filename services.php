@@ -76,8 +76,8 @@
             <div class="services services-2 w-100 text-center">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
               <div class="text w-100">
-                <h3 class="heading mb-2">Wedding Ceremony</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">Penyewaan Fleksibel</h3>
+                <p>Sewa mobil fleksibel untuk kebutuhan perjalanan sehari-hari dengan berbagai pilihan kendaraan sesuai kebutuhan Anda.</p>
               </div>
             </div>
           </div>
@@ -85,8 +85,8 @@
             <div class="services services-2 w-100 text-center">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
               <div class="text w-100">
-                <h3 class="heading mb-2">City Transfer</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">Tour Keliling Kota</h3>
+                <p>Solusi perjalanan yang aman dan nyaman untuk perjalanan bisnis atau pribadi antar kota.</p>
               </div>
             </div>
           </div>
@@ -94,8 +94,8 @@
             <div class="services services-2 w-100 text-center">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
               <div class="text w-100">
-                <h3 class="heading mb-2">Airport Transfer</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">Sewa Mobil dengan Pengemudi</h3>
+                <p>Nikmati perjalanan tanpa khawatir dengan layanan pengemudi profesional kami.</p>
               </div>
             </div>
           </div>
@@ -103,8 +103,8 @@
             <div class="services services-2 w-100 text-center">
               <div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
               <div class="text w-100">
-                <h3 class="heading mb-2">Whole City Tour</h3>
-                <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+                <h3 class="heading mb-2">Layanan Darurat</h3>
+                <p>Mobil tersedia untuk kebutuhan mendesak, dengan proses cepat dan mudah.</p>
               </div>
             </div>
           </div>
