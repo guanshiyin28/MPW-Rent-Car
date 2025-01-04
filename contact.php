@@ -81,7 +81,7 @@
                   <div class="icon mr-3">
                     <span class="icon-mobile-phone"></span>
                   </div>
-                  <p><span>Phone:</span> <a href="tel://0857 1999 1234">0857 1999 1234</a></p>
+                  <p><span>Phone:</span> <a href="https://wa.me/6289630257919">0889-6302-57919</a></p>
                 </div>
               </div>
               <div class="col-md-12">
@@ -89,7 +89,7 @@
                   <div class="icon mr-3">
                     <span class="icon-envelope-o"></span>
                   </div>
-                  <p><span>Email:</span> <a href="mailto:mpwcarrent@gmail.com">mpwcarrent@gmail.com</a></p>
+                  <p><span>Email:</span> <a href="mailto:guanshiyinnn@gmail.com">guanshiyinnn@gmail.com</a></p>
                 </div>
               </div>
             </div>
@@ -131,9 +131,9 @@
               <h2 class="ftco-heading-2"><a href="#" class="logo">MPW<span> CAR RENT</span></a></h2>
               <p>Jelajahi lebih jauh, bersama kami.</p>
               <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
-                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://x.com/guanss_"><span class="icon-twitter"></span></a></li>
                 <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                <li class="ftco-animate"><a href="https://instagram.com/guanshiyin_"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -141,8 +141,8 @@
             <div class="ftco-footer-widget mb-4 ml-md-5">
               <h2 class="ftco-heading-2">Informasi</h2>
               <ul class="list-unstyled">
-                <li><a href="#" class="py-2 d-block">Tentang</a></li>
-                <li><a href="#" class="py-2 d-block">Layanan</a></li>
+                <li><a href="about.php" class="py-2 d-block">Tentang</a></li>
+                <li><a href="services.php" class="py-2 d-block">Layanan</a></li>
                 <li><a href="#" class="py-2 d-block">Syarat dan Ketentuan</a></li>
                 <li><a href="#" class="py-2 d-block">Jaminan Harga Terbaik</a></li>
                 <li><a href="#" class="py-2 d-block">Privasi & Kebijakan Cookie</a></li>
@@ -167,9 +167,9 @@
               <div class="block-23 mb-3">
                 <ul>
                   <li></a><span class="icon icon-map-marker"></span><span class="text">Jl. Inpeksi Kalimalang, Bekasi</span></li>
-                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">0857 1999 1234</span></a>
+                  <li><a href="https://wa.me/6289630257919"><span class="icon icon-phone"></span><span class="text">0896 3025 7919</span></a>
                   </li>  
-                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">mpwcarrent@gmail.com</span></a>
+                  <li><a href="mailto:guanshiyinnn@gmail.com"><span class="icon icon-envelope"></span><span class="text">guanshiyinn@gmail.com</span></a>
                   </li>
                     
                 </ul>
