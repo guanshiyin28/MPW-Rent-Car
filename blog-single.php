@@ -30,20 +30,20 @@
     
 	  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
 	    <div class="container">
-	      <a class="navbar-brand" href="index.php">MPW<span>RENT</span>CAR</a>
+	      <a class="navbar-brand" href="index.html">MPW<span>RENT</span>CAR</a>
 	      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 	        <span class="oi oi-menu"></span> Menu
 	      </button>
 
 	      <div class="collapse navbar-collapse" id="ftco-nav">
 	        <ul class="navbar-nav ml-auto">
-	          <li class="nav-item"><a href="index.php" class="nav-link">Beranda</a></li>
-	          <li class="nav-item"><a href="about.php" class="nav-link">Tentang</a></li>
-	          <li class="nav-item"><a href="services.php" class="nav-link">Layanan</a></li>
-	          <li class="nav-item"><a href="pricing.php" class="nav-link">Harga</a></li>
-	          <li class="nav-item"><a href="car.php" class="nav-link">Mobil</a></li>
-	          <li class="nav-item active"><a href="blog.php" class="nav-link">Blog</a></li>
-	          <li class="nav-item"><a href="contact.php" class="nav-link">Kontak</a></li>
+	          <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">Tentang</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Layanan</a></li>
+	          <li class="nav-item"><a href="pricing.html" class="nav-link">Harga</a></li>
+	          <li class="nav-item"><a href="car.html" class="nav-link">Mobil</a></li>
+	          <li class="nav-item active"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Kontak</a></li>
 	        </ul>
 	      </div>
 	    </div>
@@ -55,8 +55,8 @@
       <div class="container">
         <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-start">
           <div class="col-md-9 ftco-animate pb-5">
-          	<p class="breadcrumbs"><span class="mr-2"><a href="index.php">Beranda<i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.php">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single <i class="ion-ios-arrow-forward"></i></span></p>
-            <h1 class="mb-3 bread">Baca Blog Kami</h1>
+          	<p class="breadcrumbs"><span class="mr-2"><a href="index.html">Beranda<i class="ion-ios-arrow-forward"></i></a></span> <span class="mr-2"><a href="blog.html">Blog <i class="ion-ios-arrow-forward"></i></a></span> <span>Blog Single <i class="ion-ios-arrow-forward"></i></span></p>
+            <h1 class="mb-3 bread">Baca blog kami</h1>
           </div>
         </div>
       </div>
@@ -160,6 +160,7 @@
                     <p>Saya sangat senang dengan pelayanan sewa mobil yang diberikan. Mobilnya bersih, wangi, dan kondisinya sangat baik. Prosesnya juga sangat mudah dan cepat. Terima kasih banyak atas pelayanan yang sangat memuaskan. Saya pasti akan kembali menggunakan jasa rental mobil ini di lain waktu.</p>
                     <p><a href="#" class="reply">Reply</a></p>
                   </div>
+
                   <ul class="children">
                     <li class="comment">
                       <div class="vcard bio">
@@ -171,6 +172,8 @@
                         <p>Saya sangat terkesan dengan fleksibilitas waktu penyewaan yang ditawarkan. Proses pemesanan juga sangat mudah melalui website. Terima kasih atas layanan yang luar biasa!</p>
                         <p><a href="#" class="reply">Reply</a></p>
                       </div>
+
+
                       <ul class="children">
                         <li class="comment">
                           <div class="vcard bio">
@@ -182,19 +185,20 @@
                             <p>Pengalaman menyewa mobil di MPW Rent Car sangat menyenangkan. Mobilnya dalam kondisi prima dan harga sewanya sangat terjangkau. Saya akan merekomendasikan jasa sewa mobil Anda kepada teman-teman saya.</p>
                             <p><a href="#" class="reply">Reply</a></p>
                           </div>
-                          <ul class="children">
-                            <li class="comment">
-                              <div class="vcard bio">
-                                <img src="images/person_6.png" alt="Image placeholder">
-                              </div>
-                              <div class="comment-body">
-                                <h3>Fatsaid</h3>
-                                <div class="meta">Oct. 21, 2019 at 2:25pm</div>
-                                <p>Saya sangat puas menyewa mobil jenis Toyota pada tanggal 20 oktober. Mobilnya bersih dan nyaman dikendarai. Proses pengambilan dan pengembalian mobil juga sangat lancar. Terima kasih kepada pa Agus yang telah membantu saya selama proses penyewaan</p>
-                                <p><a href="#" class="reply">Reply</a></p>
-                              </div>
-                            </li>
-                          </ul>
+
+                            <ul class="children">
+                              <li class="comment">
+                                <div class="vcard bio">
+                                  <img src="images/person_6.png" alt="Image placeholder">
+                                </div>
+                                <div class="comment-body">
+                                  <h3>Fadsait</h3>
+                                  <div class="meta">Oct. 21, 2019 at 2:25pm</div>
+                                  <p>Saya sangat puas menyewa mobil jenis Toyota pada tanggal 20 oktober. Mobilnya bersih dan nyaman dikendarai. Proses pengambilan dan pengembalian mobil juga sangat lancar. Terima kasih kepada pa agus yang telah membantu saya selama proses penyewaan</p>
+                                  <p><a href="#" class="reply">Reply</a></p>
+                                </div>
+                              </li>
+                            </ul>
                         </li>
                       </ul>
                     </li>
