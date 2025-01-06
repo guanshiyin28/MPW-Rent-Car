@@ -67,7 +67,7 @@
       <div class="container">
         <div class="row justify-content-center mb-5">
           <div class="col-md-7 text-center heading-section ftco-animate">
-            <span class="subheading">MPW RENT </span>
+            <span class="subheading">MPW RENT CAR</span>
             <h2 class="mb-3">Berbagai Layanan Kami</h2>
           </div>
         </div>
