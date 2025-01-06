@@ -346,7 +346,7 @@ require("function.php");
                   <div class="user-img mb-2" style="background-image: url(images/Fatsaid.jpeg)"></div>
                   <div class="text pt-4">
                     <p class="mb-4">Saya sangat puas dengan kondisi mobil yang disewakan. Mobilnya bersih, wangi, dan mesinnya halus. Terima kasih MPW Rent Car!</p>
-                    <p class="text-warning">Fatsaid W</p>
+                    <p class="text-warning">Fatsaid Winantyo</p>
                     <span class="position">IT Backend Development</span>
                   </div>
                 </div>
