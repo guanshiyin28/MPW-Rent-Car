@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 07, 2025 at 03:59 PM
+-- Generation Time: Jan 08, 2025 at 10:18 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.2.12
 
@@ -50,7 +50,7 @@ INSERT INTO `admins` (`id`, `username`, `password`) VALUES
 CREATE TABLE `unit` (
   `id` int(11) NOT NULL,
   `nama_mobil` varchar(255) NOT NULL,
-  `harga_mobil` decimal(10,2) NOT NULL,
+  `harga_mobil` int(255) NOT NULL,
   `unit_mobil` int(11) NOT NULL,
   `gambar_mobil` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
@@ -60,17 +60,15 @@ CREATE TABLE `unit` (
 --
 
 INSERT INTO `unit` (`id`, `nama_mobil`, `harga_mobil`, `unit_mobil`, `gambar_mobil`) VALUES
-(1, 'Fortuner', 500000.00, 4, 'assets/images/car/Fortuner.jpg'),
-(2, 'Avanza Veloz', 400000.00, 3, 'assets/images/car/Avanza.jpg'),
-(3, 'Civic', 1000000.00, 7, 'assets/images/car/Civic.jpg'),
-(4, 'Pajero', 500000.00, 4, 'assets/images/car/Pajero.jpg'),
-(5, 'Sigra', 400000.00, 6, 'assets/images/car/Sigra.jpg'),
-(7, 'Rush', 500000.00, 10, 'assets/images/car/Rush.jpg'),
-(8, 'Rubicon', 1000000.00, 5, 'assets/images/car/Rubicon.jpg'),
-(9, 'Range Rover', 1500000.00, 4, 'assets/images/car/RangeRover.jpg'),
-(10, 'Xenia', 400000.00, 8, 'assets/images/car/Xenia.jpg'),
-(12, 'Mercedes', 500000.00, 5, 'assets/images/car/Mercedes.jpg'),
-(50, 'Mazda RX-7', 9999.99, 1, 'assets/images/car/MazdaRX-7.jpg');
+(1, 'Fortuner', 500000, 4, 'assets/images/car/Fortuner.jpg'),
+(2, 'Avanza Veloz', 400000, 3, 'assets/images/car/Avanza.jpg'),
+(3, 'Civic', 1000000, 7, 'assets/images/car/Civic.jpg'),
+(4, 'Pajero', 500000, 4, 'assets/images/car/Pajero.jpg'),
+(5, 'Sigra', 400000, 6, 'assets/images/car/Sigra.jpg'),
+(7, 'Rush', 500000, 10, 'assets/images/car/Rush.jpg'),
+(8, 'Rubicon', 1000000, 5, 'assets/images/car/Rubicon.jpg'),
+(9, 'Range Rover', 1500000, 4, 'assets/images/car/RangeRover.jpg'),
+(10, 'Xenia', 400000, 8, 'assets/images/car/Xenia.jpg');
 
 --
 -- Indexes for dumped tables
@@ -103,7 +101,7 @@ ALTER TABLE `admins`
 -- AUTO_INCREMENT for table `unit`
 --
 ALTER TABLE `unit`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

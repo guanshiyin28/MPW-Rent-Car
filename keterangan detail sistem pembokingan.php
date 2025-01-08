@@ -2,10 +2,13 @@
 <html>
 <head>
     <title>Detail Pemesanan</title>
-    <link rel="stylesheet" href="style.css"> </head>
+    <!-- Menyertakan file CSS untuk styling -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
 <body>
     <div class="container">
         <h2>Detail Pemesanan Anda</h2>
+        <!-- Menampilkan detail pemesanan pelanggan -->
         <p><strong>Nama Pelanggan:</strong> [Nama Pelanggan]</p>
         <p><strong>Nomor Telepon:</strong> [Nomor Telepon]</p>
         <p><strong>Email:</strong> [Alamat Email]</p>
