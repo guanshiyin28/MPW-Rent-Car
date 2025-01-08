@@ -159,7 +159,14 @@ Repository ini bertujuan untuk mempermudah pengelolaan layanan rental mobil MPW 
    }
    ```
 
+5. **Class Diagram**:
+   
+   ![image](https://github.com/user-attachments/assets/2c03a1de-1d47-4478-97b1-8d1778a04797)
+
+
 <hr><br>
+
+
 
 <div align="center">
   <a href="https://www.instagram.com/guanshiyin_/">
