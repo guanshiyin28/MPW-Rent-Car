@@ -2,11 +2,13 @@
 session_start();
 include 'config/function.php';
 
+// Memeriksa apakah admin sudah login
 if (isset($_SESSION['admin_logged_in']) && $_SESSION['admin_logged_in'] === true) {
     header('Location: admin_dashboard.php');
     exit;
 }
 
+// Memproses form login admin
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $username = $_POST['username'];
     $password = $_POST['password'];
