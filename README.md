@@ -19,14 +19,18 @@ Repository ini bertujuan untuk mempermudah pengelolaan layanan rental mobil MPW 
 
 <hr><br>
 
-## Demo
+## Demo Website
+
 
 <div align=center>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=20:06D001,100:F0F0F0&section=footer&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
 
 ![Untitled-video-Made-with-Clipchamp-_3_](https://github.com/user-attachments/assets/1932ab8b-8624-4e65-9af9-cc27dc59f408)
+<img src="https://capsule-render.vercel.app/api?type=waving&height=100&color=20:06D001,100:F0F0F0&section=header&reversal=false&textBg=false&fontAlignY=50&descAlign=48&descAlignY=59"/>
 
 </div>
+
 <hr><br>
 
 ## Proses Bisnis Proyek
